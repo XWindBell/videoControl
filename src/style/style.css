@@ -1,0 +1,55 @@
+body {
+  background: #000;
+}
+body .main-box {
+  width: 800px;
+  margin: 50px auto;
+  border: 1px solid #fff;
+}
+body .main-box .video {
+  width: 100%;
+}
+body .main-box .controls {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  background: #fff;
+}
+body .main-box .controls .left {
+  flex-basis: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+}
+body .main-box .controls .play-btn {
+  background: #000 url('../img/play.png') no-repeat;
+  background-size: 100% 100%;
+}
+body .main-box .controls .pause-btn {
+  background: #000 url('../img/pause.png') no-repeat;
+  background-size: 100% 100%;
+}
+body .main-box .controls .right {
+  flex-basis: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+}
+body .main-box .controls .full-screen-enter {
+  background: #000 url('../img/full_enter.png') no-repeat;
+  background-size: 100% 100%;
+}
+body .main-box .controls .full-screen-exit {
+  background: #000 url('../img/full_exit.png') no-repeat;
+  background-size: 100% 100%;
+}
+body .main-box .controls .prograss {
+  flex: 1;
+}
+body .main-box .controls .current {
+  width: 0%;
+  height: 40px;
+  background-color: gray;
+}
